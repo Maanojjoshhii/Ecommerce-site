@@ -47,7 +47,7 @@ for (let i = 0; i < mobileMenuOpenBtn.length; i++) {
     mobileMenu[i].classList.add('active');
     overlay.classList.add('active');
   });
-
+  
   mobileMenuCloseBtn[i].addEventListener('click', mobileMenuCloseFunc);
   overlay.addEventListener('click', mobileMenuCloseFunc);
 
